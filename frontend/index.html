@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Financial AI Agent</title>
+  <style>
+    body {
+      font-family: Arial;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    #chat {
+      border: 1px solid #ccc;
+      padding: 10px;
+      height: 400px;
+      overflow-y: auto;
+    }
+
+    .ai {
+      color: blue;
+    }
+
+    .user {
+      color: green;
+    }
+
+    .suggestion {
+      background: #f0f0f0;
+      padding: 5px;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>💰 Financial AI Agent</h2>
+
+<div id="chat"></div>
+
+<input id="input" placeholder="Ask something..." />
+<button onclick="send()">Send</button>
+
+<script src="app.js"></script>
+
+</body>
+</html>
